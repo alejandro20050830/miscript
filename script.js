@@ -1,5 +1,6 @@
   // Función para obtener los enlaces Adqva
-    function obtenerEnlacesAdqva() {
+alert("yes");
+function obtenerEnlacesAdqva() {
       const elementosImagen = document.querySelectorAll("._AdQVA_ad_unit_image");
       const enlaces = [];
 

@@ -22,12 +22,12 @@
         const enlaceAleatorio = enlacesAdqva[Math.floor(Math.random() * enlacesAdqva.length)];
         boton.href = enlaceAleatorio;
       } else {
-        console.log("No se encontraron enlaces válidos.");
+        alert("No se encontraron enlaces válidos.");
       }
     }
 
     // Ejecutar la función cada 20 segundos
-    setInterval(actualizarEnlaceBoton, 20000); 
+    setInterval(actualizarEnlaceBoton, 5000); 
 
     // Ejecutar la función al cargar la página
     actualizarEnlaceBoton(); // Llamada inicial para actualizar al cargar
